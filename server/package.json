@@ -1,5 +1,5 @@
 {
-	"name": "rss-feed server",
+	"name": "rss-feed-server",
 	"version": "1.0.0",
 	"description": "rss feed app's server side",
 	"main": "server.js",
