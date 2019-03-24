@@ -1,16 +1,21 @@
 {
 	"name": "rss-feed",
 	"version": "1.0.0",
-	"description": "",
+	"description": "rss feed app's server side",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js --prefix server",
+		"start": "node server.js",
 		"client": "cd client && npm start",
-		"server": "cd server && node server",
-		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix server && npm install --prefix client && npm run build --prefix client"
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
 	},
 	"author": "DS",
 	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"feed-to-json-promise": "^1.8.2",
+		"mongoose": "^5.4.19"
+	},
 	"devDependencies": {
 		"nodemon": "^1.18.10"
 	}
