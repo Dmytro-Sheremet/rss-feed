@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { login } from '../../actions/loginActions';
-import './style.css';
 
 class LoginPage extends Component {
 	state = {
