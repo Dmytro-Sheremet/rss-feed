@@ -3,9 +3,7 @@
 	"version": "1.0.0",
 	"description": "rss feed app's server side",
 	"main": "server.js",
-	"scripts": {
-		"start": "nodemon server.js"
-	},
+	"scripts": {},
 	"author": "DS",
 	"license": "ISC",
 	"dependencies": {
