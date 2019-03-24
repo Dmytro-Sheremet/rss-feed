@@ -2,7 +2,7 @@
 	"name": "rss-feed",
 	"version": "1.0.0",
 	"description": "",
-	"main": "cd server && server.js",
+	"main": "server.js",
 	"scripts": {
 		"client": "cd client && npm start",
 		"server": "cd server && node server",
