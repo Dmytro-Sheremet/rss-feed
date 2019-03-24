@@ -9,7 +9,7 @@ export default class Layout extends Component {
 		return (
 			<div>
 				<Header />
-				<div class='container'>
+				<div className='container'>
 					<Switch>
 						<Route path='/channels' component={ChannelsPage} />
 						<Route path='/channel-news/:id' component={ChannelNewsPage} />
