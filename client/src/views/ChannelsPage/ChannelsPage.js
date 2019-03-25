@@ -37,7 +37,7 @@ class ChannelsPage extends Component {
 					type='submit'
 					className='btn btn-warning mt-3 font-weight-bold text-white btn-block'
 				>
-					Add Item
+					Add New Channel
 				</button>
 				<ul className='list-group'>
 					{items.map(({ _id, name }) => (
